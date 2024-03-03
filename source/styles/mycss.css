@@ -1,0 +1,106 @@
+/* Импортируем шрифт */
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+/* Обращаемся к body и переносим в него шрифт и главный задний фон */
+body {
+    font-family: Michroma, serif;
+    background: linear-gradient(90deg, #0011ff 0%, #000 100%, #ffffff 100%);
+}
+
+p {
+    color: aquamarine;
+}
+
+/* Аквамариновый цвет всех вкладок на которых не находится пользователь */
+.nav-link {
+    color: aquamarine;
+}
+
+/* Серый цвет вкладки на которой находится пользователь */
+.navbar-nav .nav-link.active {
+    color: rgb(160, 158, 158);
+}
+
+/* Размеры логотипа */
+.navbar-brand img{
+    width: 40px;
+}
+
+/* Размеры кнопки для выпадающего меню при малом экране */
+.navbar-toggler {
+    background-color: rgb(160, 158, 158);
+}
+
+/* Настройки боковой панели */
+.sidebar {
+    background: linear-gradient(270deg, #0011ff 0%, #1a174d 100%, #ffffff 100%);
+    color:aquamarine
+}
+
+/* Карты товара (задний фон, шрифт) */
+.card {
+    background: linear-gradient(270deg, #0411c5 0%, #211d55 100%, #ffffff 100%);
+    color:aquamarine
+}
+
+/* Настройка ссылок в картах товара (шрифт, цвет текста) */
+.card a {
+    text-decoration: none;
+    color:aquamarine;
+}
+
+/* Настройки текста слайд панели и подвала */
+.slide-text,
+.footer-text {
+    color: aquamarine;
+    /* margin auto - задать центральное положение от контейнера */
+    margin: auto auto;
+}
+
+/* Фон подвала */
+footer, .btn-outline-primary {
+    background: linear-gradient(270deg, #131eb8 0%, #1b1757 100%, #ffffff 100%);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Анимация кнопки звонка(телефона) */
+.call-animation {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+@keyframes call {
+	0% {
+		transform: translate(0);
+	}
+
+	20% {
+		transform: translate(-2px, 2px);
+	}
+
+	40% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, 2px);
+	}
+
+	80% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
+/* В случае использования телефона */
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
