@@ -19,5 +19,5 @@ HTML документ благодаря которому был изучен с
 + Настройка сетки CSS Flexbox для различных устройств
 
 ## Поддержка
-Если у вас возникли сложности или вопросы по использованию пакета, создайте [обсуждение](https://github.com/FedorSmorodskii/FedorSmorodskiiHTML.github.io/issues) в данном репозитории или напишите на электронную почту fedorsmorodskii@gmail.com
+Если у вас возникли сложности или вопросы по проекту, создайте [обсуждение](https://github.com/FedorSmorodskii/FedorSmorodskiiHTML.github.io/issues) в данном репозитории или напишите на электронную почту fedorsmorodskii@gmail.com
 
